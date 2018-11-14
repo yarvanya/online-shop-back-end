@@ -18,11 +18,7 @@ module.exports = {
       {
         test: /\.js?$/,
         use: 'babel-loader',
-      },
-      {
-        test: /\.json$/,
-        use: 'json-loader',
-      },
+      }
     ],
   },
 
@@ -31,6 +27,5 @@ module.exports = {
     new webpack.EnvironmentPlugin({'NODE_ENV': 'development'}),
   ],
 
-  devtool: 'source-map',
-  mode: 'development'
+  devtool: 'source-map'
 };

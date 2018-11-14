@@ -16,8 +16,8 @@ module.exports = {
       {
         firstName: 'Nataliia',
         lastName: 'Hudyma',
-        birthDate: '1994-05-21',
-        address: 'Shevchenka street, 46',
+        birthDate: '1994-05-22',
+        address: 'Shevchenka street, 32',
         city: 'Berezyna',
         country: 'Ukraine',
         createdAt: Date.now(),

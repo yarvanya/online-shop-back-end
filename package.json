@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/yarvanya/online-shop-back-end#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "sequelize": "^4.41.0"
   },
   "devDependencies": {

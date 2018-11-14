@@ -1,6 +1,6 @@
-/*const { userController } = require('../controllers');*/
+const {userController} = require('../controllers');
 
 module.exports = app => {
-  app.post('/api/users', console.log("POST TEST!"));
-  app.delete('/api/user/:id', console.log("DELETE TEST!"));
+  app.post('/api/users', userController.create);
+  app.delete('/api/user/:id', userController.destroy);
 };
