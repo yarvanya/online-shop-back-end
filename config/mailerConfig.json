@@ -1,0 +1,7 @@
+{
+    "email": "mocofrona@gmail.com",
+    "user": "mocofrona@gmail.com",
+    "pass": "password_to_the_account",
+    "host": "smtp.gmail.com",
+    "port": 587
+}
