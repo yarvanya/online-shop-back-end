@@ -10,7 +10,7 @@ const constants = require('../helper/constants');
 const patterns = {
   password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{5,20}$/
 };
-const secretKey = 'your_secret_key';
+const secretKey = 'moco';
 
 const hasValidPassword = newUser => {
   if (newUser.password) {

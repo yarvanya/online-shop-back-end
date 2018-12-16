@@ -6,5 +6,10 @@ module.exports = {
   catchedError: 'Something wrong, please try again!',
   linkNotValid: 'This link is not valid!',
   notFoundUser: 'User not found!',
-  alreadyActivated: 'User is already activated!'
+  alreadyActivated: 'User is already activated!',
+  notValidPassword: 'Email or password is not valid! Please, try again!',
+  userIsNotActivated: 'You are not activated. Please check your email.',
+  profileUpdated: 'You have successfully updated your profile',
+  profileNotUpdated: 'Profile was not updated. Something goes wrong! Try again!',
+  notFoundProfile: 'Profile was not found for your account!'
 };

@@ -50,9 +50,6 @@ module.exports  = (sequelize, DataTypes) => {
       }
     },
     hooks: {
-      afterValidate: (user, options) => {
-        user.password = passwordHash.generate(user.password);
-      },
       beforeCreate: (user, options) => {
         user.createdAt = new Date().getTime();
         user.updatedAt = new Date().getTime();
